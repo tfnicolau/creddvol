@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cancelamento</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Consulta Cancelamento</h1>
+    </header>
+    <section>
+        <div>
+            <input type="number" class= "cancelamento" name="cancelamento" id="cancelamento" autofocus="cancelamento">
+            <input type="button" class="buscar" value="buscar" onclick="buscar();mudaBackground();" id="button">
+                     
+        </div>
+
+        <div id="res" class="res">
+            
+            <strong> <p id="listagem"></p> </strong>
+
+        </div>
+
+        <div id="div">
+           <p id="listagem2">
+            <table class="table" id="table" >
+                <thead class="thead" id="thead">
+                  <th id="loja" class="th"></th>
+                  <th id="cancelamentoTabela" class="th"></th>
+                  <th id="atendimento" class="th"></th> 
+                  <th id="status" class="th"></th> 
+                </thead>
+                <tbody class="tbody">
+                    <td id="lojaRes" class="td"></td>
+                    <td id="cancelamentoRes" class="td"></td>
+                    <td id="atendimentoRes" class="td"></td>
+                    <td id="statusRes" class="td"></td>
+                </tbody>
+              </table>
+            
+           </p>
+        </div id="div">
+
+
+    </section>
+    
+    <script src="script.js">/* chama o script.js */</script>
+    
+</body>
+</html>
